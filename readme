@@ -1,7 +1,9 @@
 #For yavdr:
 cd /usr/share/vdr/plugins/skinnopacity/icons
-git clone 
+git clone https://github.com/BooStars/nopacityartwork-themes
+mv nopacityartwork-themes/anthra* .
+nopacityartwork-themes/ -r
 cp anthra*/theme-anthra*.conf /var/lib/vdr/plugins/skinnopacity/themeconfigs/
 cp anthra*/nOpacity-anthra*.theme /var/lib/vdr/themes/
-
+start vdr
  
