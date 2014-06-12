@@ -1,0 +1,7 @@
+#For yavdr:
+cd /usr/share/vdr/plugins/skinnopacity/icons
+git clone 
+cp anthra*/theme-anthra*.conf /var/lib/vdr/plugins/skinnopacity/themeconfigs/
+cp anthra*/nOpacity-anthra*.theme /var/lib/vdr/themes/
+
+ 
